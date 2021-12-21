@@ -10324,11 +10324,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn, .btn:hover {
-  color: #fff;
+  color: #343a40;
 }
 
 .btn-light, .btn-light:hover {
-  color: #5a5a5a;
+  color: black;
 }
 
 .btn-link, .btn-link:hover {

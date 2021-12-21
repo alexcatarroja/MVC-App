@@ -70,5 +70,8 @@ namespace finaltest.Models
         [Display(Name = "Full Name")]
         public string FriendlyName => $"{FirstName} {LastName}";
 
+        public string FriendlyAddress => string.IsNullOrWhiteSpace(StreetAddress2)
+                                         ? $"{StreetAddress1}, {City}, {State.Abbreviation}, {Zip}"
+                                         : $"{StreetAddress1} - {StreetAddress2}, {City}, {State.Abbreviation}, {Zip}";
     }
 }
