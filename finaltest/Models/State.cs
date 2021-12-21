@@ -26,7 +26,7 @@ namespace finaltest.Models
 
         public string Name { get; set; }
 
-        [Display(Name = "State")]
+        [Display(Name = "Abbreviation")]
         [Required(ErrorMessage = "State Abbreviation is Required")]
         [StringLength(ContactWebConstants.MAX_STATE_ABBR_LENGTH)]
 
